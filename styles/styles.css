@@ -835,13 +835,6 @@ a {
 
   
 .footer-conect__icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 44px;
-    height: 44px;
-    border-radius: 50%;
-
     transition: color 250ms, background 200ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     fill: var(--bg-main);
