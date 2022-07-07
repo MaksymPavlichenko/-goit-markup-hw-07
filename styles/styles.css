@@ -386,7 +386,7 @@ a {
     border-color: var(--selection-color);
 }
 
-.recall-form__input:focus + .modal-icon {
+.recall-form__input:focus + .recall-form__icon {
     fill: var(--selection-color);
   }
 
@@ -412,7 +412,7 @@ a {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.recall-form__input:focus-within .modal-incon {
+.recall-form__input:focus-within .recall-form__icon {
     fill: var(--selection-color);
  }
 
@@ -425,12 +425,12 @@ a {
     margin-bottom: 30px;
 }
 
-.modal-privacy:focus-within .check-icon {
+.modal-privacy:focus-within .modal-privacy__icon {
     border-color: var(--selection-color);
 }
 
   
-.modal-privacy__input:checked + .modal-privacy-input-text span {
+.modal-privacy__input:checked + .modal-privacy__text span {
     background-color: var(--selection-color);
     border-color: var(--selection-color);
     fill: var(--bg-main);
@@ -752,6 +752,10 @@ a {
     background-color: var(--bg-dark);
     padding-top: 60px;
     padding-bottom: 60px;
+}
+
+.footer_address {
+    margin-right: 70px;
 }
 
 .footer__logo {
