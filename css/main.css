@@ -237,6 +237,9 @@ a {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   fill: #FFFFFF;
 }
+.footer-conect__icon:hover, .footer-conect__icon:focus {
+  background-color: #2196F3;
+}
 
 .footer-conect__item:not(:last-child) {
   margin-right: 10px;
@@ -790,7 +793,7 @@ a {
 }
 
 .client__icon {
-  fill: currentColor;
+  fill: #757575;
 }
 
 .portfolio {
