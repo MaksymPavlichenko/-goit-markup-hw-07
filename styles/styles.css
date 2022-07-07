@@ -766,6 +766,13 @@ a {
 }
 
 .footer__logo {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--selection-color);
     margin-bottom: 20px;
     margin-right: 0;
     display: inline-block;
@@ -947,15 +954,12 @@ a {
     color: var(--bg-main);
 }
 
-.portfolio-examples {
+.portfolio__examples {
     display: flex;
     flex-wrap: wrap;
     margin-right: -30px;
     margin-bottom: -30px; 
 }
-
-
-
 
 
 
