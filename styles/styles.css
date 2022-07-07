@@ -754,7 +754,7 @@ a {
     padding-bottom: 60px;
 }
 
-.footer_address {
+.footer__address {
     margin-right: 70px;
 }
 
@@ -970,7 +970,7 @@ a {
 
 
 
-.exaple {
+.example {
     display: block;
     border: 1px;
     border-color: #EEEEEE;
@@ -979,19 +979,19 @@ a {
     margin-bottom: 30px;
 }
 
-.exaple:hover,
-.exaple:focus {
+.example:hover,
+.example:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
     0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.exaple__box {
+.example__box {
     position: relative;
     overflow: hidden;
 }
 
-.exaple__overlay {
+.example__overlay {
     width: 100%;
     height: 100%;
     padding: 63px 24px;
@@ -1011,8 +1011,8 @@ a {
     left: 0;
 }
 
-.exaple a:hover .exaple__overlay,
-.exaple a:focus .exaple__overlay {
+.example a:hover .example__overlay,
+.example a:focus .example__overlay {
     transform: translateY(0);
 }
 
@@ -1025,7 +1025,7 @@ a {
     margin-bottom: 4px;
 }
 
-.exaple__info {
+.example__info {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.9;
@@ -1034,12 +1034,12 @@ a {
 }
 
 
-.exaple__img {
+.example__img {
     display: block;
     margin-right: 0;
 }
 
-.exaple__text {
+.example__text {
     padding: 20px 24px;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
