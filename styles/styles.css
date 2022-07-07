@@ -8,7 +8,6 @@
     --selection-color: #2196F3;
     --selection-color-dark: #188CE8;
     --icon-fill: #afb1b8;
-    --icon-company-fill: #afb1b8;
 }
 
 body {
@@ -730,7 +729,7 @@ a {
     width: 170px;
     height: 92px;
   
-    color: var(--icon-company-fill);
+    color: var(--icon-fill);
   
     border: 1px solid rgba(175, 177, 184, 1);
     border-radius: 4px;
