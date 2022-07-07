@@ -816,6 +816,11 @@ a {
     align-items: center;
 }
 
+.footer-conect__list{
+    display: flex;
+    justify-content: space-between
+}
+
 .footer-conect__link {
     display: flex;
     justify-content: center;
@@ -823,6 +828,8 @@ a {
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    transition: background 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
