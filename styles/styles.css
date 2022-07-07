@@ -810,7 +810,7 @@ a {
 
 
 
-.footer-content {
+.footer__content {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -818,9 +818,13 @@ a {
 
 .footer-conect__link {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
 }
-}
+
 
   
 .footer-conect__icon {
