@@ -432,7 +432,7 @@ a {
   fill: currentColor;
 }
 
-.recall-form {
+.modal__title {
   margin-bottom: 12px;
   font-weight: 700;
   font-size: 20px;
@@ -442,7 +442,7 @@ a {
   color: #212121;
 }
 
-.recall-form__text {
+.modal__text {
   display: block;
   margin-bottom: 4px;
   font-size: 12px;
@@ -451,7 +451,7 @@ a {
   color: #757575;
 }
 
-.recall-form__input {
+.modal__input {
   outline: none;
   display: block;
   box-sizing: border-box;
@@ -463,11 +463,11 @@ a {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.recall-form__input:focus {
+.modal__input:focus {
   border-color: #2196F3;
 }
 
-.recall-form__comment {
+.modal__comment {
   box-sizing: border-box;
   outline: none;
   margin-bottom: 20px;
@@ -479,27 +479,27 @@ a {
   border-radius: 4px;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.recall-form__comment:focus {
+.modal__comment:focus {
   border-color: #2196F3;
 }
 
-.recall-form__input:focus + .recall-form__icon {
+.modal__input:focus + .recall-form__icon {
   fill: #2196F3;
 }
 
-.recall-form__comment::placeholder {
+.modal__comment::placeholder {
   font-size: 12px;
   line-height: 14px;
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
 
-.recall-form__item {
+.rmodal__item {
   color: #212121;
   position: relative;
 }
 
-.recall-form__icon {
+.modal__icon {
   position: absolute;
   top: 50%;
   left: 12px;
@@ -507,7 +507,7 @@ a {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.recall-form__input:focus-within .recall-form__icon {
+.modal__input:focus-within .recall-form__icon {
   fill: #2196F3;
 }
 
@@ -704,7 +704,7 @@ a {
   display: block;
 }
 
-.worker {
+.team__name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -714,7 +714,7 @@ a {
   margin-bottom: 10px;
 }
 
-.worker__post {
+.team__post {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.2;
